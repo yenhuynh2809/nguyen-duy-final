@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans+TC:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fira+Sans&family=Noto+Sans+TC:wght@300;500&display=swap');
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+h1{
+	font-family: 'DM Serif Display', serif;;
+}
+#wrapper{
+	width: 100%;
+	padding: 10px 0;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+header{
+	width: 100%
+}
+.top-bar{
+	width: 100%;
+	height: 50px;
+	background: rgba(224,170,104,1.00);
+}
+.top-bar ul li {
+	float: right;
+	margin-right: 15px;
+	line-height: 45px;
+	color:beige
+}	
+.top-bar ul{
+	list-style: none;
+	
+}	
+.top-bar img{
+	float: right;
+	margin-right: 15px;
+	line-height: 45px;
+    padding-top: 10px;
+}
+.header-main{
+	width: 100%;
+	height: 140px;
+	background: url();
+}
+.logo{
+	width: 20%;
+	height: 15px;
+	float: left;
+}	
+.logo img{
+	margin-top: 18px;
+}
+.menu{
+	width: 65%;
+	height: 140px;
+	float: right;
+}	
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 20px;
+	line-height: 140px
+}
+.menu ul li a{
+	color: chocolate;
+	text-decoration: none;
+	font-weight: 300
+}
+.header-bottom{
+	width: 100%;
+	height: 40px;
+	background:rgba(234,206,169,1.00);
+	text-align: center;
+	line-height: 40px
+}
+.header-bottom a{
+	color:chocolate;
+	text-decoration: none;
+	font-weight: 400px
+}
+main{
+	height: 1200px;
+}
+.banner{
+	width: 100%;
+	height: 800px;
+	background: url("images/gzhel-3655388_1280.jpg");
+	background-attachment: scroll;
+	background-size: cover;
+	padding-top: 200px;
+}
+.content{
+	width: 50%;
+	height: 400px;
+}
+.content h1{
+	font-size: 44px;
+	color:beige;
+	letter-spacing: 1.2px
+	
+}
+.content p{
+	color:beige;
+	font-size: 17px;
+	line-height: 20px;
+	margin: 20px 0 50px;
+	letter-spacing: 0.5px;
+}
+.btn {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	border: 2px solid rgba(255,252,247,1.00);
+	padding: 12px 50px;
+	border-radius: 50px;
+	letter-spacing: 1px;
+	transition-duration: 0.5s;
+}
+.btn:hover{
+	background: rgba(248,239,228,1.00);
+	color: chocolate;
+}
+.newin{
+	width: 100%;
+	height: 400px;
+	padding: 100px 0;
+	background: rgba(234,206,169,1.00);
+	}
+.sv-box{
+	width: 28%;
+	height: 300px;
+	background: rgba(224,170,104,1.00);
+	border-radius: 15px;
+    padding: 60px 0px 64px;
+	display: inline-block;
+	margin: 0 30px;
+	-webkit-box-shadow: 5px 4px 24px -7px #BF855E; 
+    box-shadow: 5px 4px 24px -7px #BF855E;
+	
+}
+.box-icon{
+	width: 110px;
+	height: 110px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 70px;
+	text-align: center;
+	margin: 10px auto;
+	line-height: 10px;
+	border: 5px solid rgba(255,255,255,0.49);
+	transition-duration:1s;
+}
+.box-icon img{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-top: 30px;
+}
+.sv-box:hover .box-icon{
+	border: 5px solid rgba(208,169,122,1.00);
+}
+.sv-box h4{
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin: 20px auto;
+	text-align: center;
+	color: beige
+}
+.sv-box p{
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin: 15px 0;
+	text-align: left;
+	padding: 20px 20px;
+	color: beige
+}
+.catalogue{
+	width: 100%;
+	height: 600px;
+	padding: 10px 0;
+	background: rgba(234,206,169,1.00);
+}   
+.catalogue-box1{
+	width: 46%;
+	height: 500px;
+    margin: 0 23px 0 20px; 
+	background: url("images/nizwa-3236202_640.jpg");
+	background: cover;
+	display: inline-block;
+	border-radius: 15px;
+	-webkit-box-shadow: 5px 4px 24px -7px #BF855E; 
+    box-shadow: 5px 4px 24px -7px #BF855E;
+}
+.catalogue-box2{
+	width: 46%;
+	height: 500px;
+    margin: 0 23px 0 20px; 
+	background: url("images/pottery-3242323_1280.jpg");
+	background: cover;
+	display: inline-block;
+	border-radius: 15px;
+	-webkit-box-shadow: 5px 4px 24px -7px #BF855E; 
+    box-shadow: 5px 4px 24px -7px #BF855E;
+}
+.promotion{
+	width: 100%;
+	height: 60px;
+	padding: 10px 0;
+	text-align: center;
+	background:rgba(255,254,254,1.00);
+}
+.promotion a{
+	width: 100%;
+	height: 80px;
+	text-decoration: none;
+	font-size: 30px;
+	color: chocolate;
+	font-weight: 300;
+}
+.studio{
+	width: 100%;
+	height: 500px;
+	background: url("images/StackingPlanter-Tall-Terracotta_480x480_51beca1f-ca34-4b15-9706-c4fec9ced242_1024x1024.gif"),rgba(234,206,169,1.00);
+	background-size:500px;
+	background-repeat: no-repeat;
+	background-position: 500px,200px;
+	padding-top: 10px;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: rgba(224,170,104,1.00);
+	padding-bottom: 10px;
+}
+.footer-menu{
+	margin: 0 20px;
+	text-decoration: none;
+	padding: 10px;
+}
+.footer-menu a{
+	margin: 10px 20px auto;
+	text-align: center;
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+}	
+
+
+
